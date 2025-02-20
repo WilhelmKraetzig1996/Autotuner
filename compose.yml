@@ -1,0 +1,12 @@
+services:
+  compiler:
+    build: .
+    volumes:
+      - .:/source
+      - conancache:/root/.conan 
+      - conan2cache:/root/.conan2 
+
+
+volumes:
+  conancache:
+  conan2cache:

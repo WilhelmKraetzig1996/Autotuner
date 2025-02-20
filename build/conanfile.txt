@@ -1,0 +1,12 @@
+[requires]
+gtest/1.15.0
+kissfft/131.1.0
+libcurl/8.11.1
+
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
